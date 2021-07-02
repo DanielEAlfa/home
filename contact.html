@@ -76,7 +76,7 @@
             </li>
         </ul>
 
-
+        <a href="https://themeforest.net/item/tunis-personal-portfolio/26761598?irgwc=1&clickid=UBs0rDX6YxyJWfewUx0Mo3E1UkiwozXD10XATw0&iradid=275988&irpid=1327395&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_1327395&utm_medium=affiliate&utm_source=impact_radius" class="waves-effect waves-light font-weight-700 purchase"><i class="fa fa-shopping-cart"></i> Purchase</a>
         <div id="hideSwitcher">&times;</div>
     </div>
 </div>
@@ -167,6 +167,7 @@
             <!-- Left Side Ends -->
             <!-- Contact Form Starts -->
             <div class="col-12 col-lg-8">
+                <div class="hamburguer"></div>
                 <form class="contactform" method="post" action="http://slimhamdi.net/tunis/dark/php/process-form.php">
                     <div class="contactform">
                         <div class="row">
@@ -185,26 +186,51 @@
                                     <span class="button-text">Enviar Mensagem</span>
                                     <span class="button-icon fa fa-paper-plane"></span>
                                 </button>
-                                
-                                <a class="button" href="https://danielealfa.github.io/home/orcamento.html">
-                                    <span class="button-text">Abrir Orçamento Fácil</span>
-                                    <span class="button-icon fas fa-dollar-sign"></span>
-                                </a>
-                            
+                                </div>
+                                </div>
                             <div class="col-12 form-message">
                                 <span class="output_message text-center font-weight-600 text-uppercase"></span>
                             </div>
                         </div>
                     </div>
                     <form>
- 
+                    </body>
                 </form>
             </div>
             <!-- Contact Form Ends -->
+            <div class="col-12 col-lg-4"></div>
         </div>
     </div>
+    <section class="sessao-orcamento" id="orcamento">
+        <div class="orcamento-wrapper">
+          <form>
+            <label for="qtde">Qtde de Páginas</label>
+            <input type="number" min="1" name="qtde" id="qtde">
+            <label for="js">Preciso de um script JS</label>
+            <input type="checkbox" name="js" id="js">
+            <label>Layout</label>
+            <div class="group-layout">
+              <div>
+                <input type="radio" name="layout" id="layout-sim">
+                <label for="layout-sim">Preciso de um layout</label>
+              </div>
+              <div>
+                <input type="radio" name="layout" id="layout-nao">
+                <label for="layout-nao">Já tenho um layout</label>
+              </div>
+            </div>
+            <label for="prazo">Prazo</label>
+            <input type="range" name="prazo" id="prazo" min="1" max="10">
+            <label id="preco">R$ 0,00</label>
+            <button class="btn btn-orcamento" type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+ <script src="script.js"></script>
 
-</section>
+
+
+
 <!-- Template JS Files -->
 <script src="js/jquery-3.5.0.min.js"></script>
 <script src="js/styleswitcher.js"></script>
